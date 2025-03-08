@@ -6,7 +6,7 @@ import javascript from "../../public/JavaScript.png";
 import react from "../../public/React.png";
 import figma from "../../public/Figma.png";
 import github from "../../public/GitHub.png";
-import ms_office from "../../public/GitHub.png";
+import ms_office from "../../public/MicroSoft.png";
 function Experiance() {
   const cardItem = [
     {
@@ -41,7 +41,7 @@ function Experiance() {
     },
     {
       id: 7,
-      logo: github,
+      logo: ms_office,
       name: "MS Office",
     },
   ];

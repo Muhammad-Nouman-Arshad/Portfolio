@@ -1,43 +1,43 @@
 import React from "react";
 
-import java from "../../public/Html.png";
-import python from "../../public/Css.png";
-import mongoDB from "../../public/JavaScript.png";
-import express from "../../public/React.png";
-import reactjs from "../../public/Figma.png";
-import nodejs from "../../public/GitHub.png";
+import html from "../../public/Html.png";
+import css from "../../public/Css.png";
+import javascript from "../../public/JavaScript.png";
+import reactjs from "../../public/React.png";
+import figma from "../../public/Figma.png";
+import github from "../../public/GitHub.png";
 
 function PortFolio() {
   const cardItem = [
     {
       id: 1,
-      logo: mongoDB,
-      name: "MongoDB",
+      logo: html,
+      name: "Html",
     },
     {
       id: 2,
-      logo: express,
-      name: "Express",
+      logo: css,
+      name: "CSS",
     },
     {
       id: 3,
-      logo: reactjs,
-      name: "ReactJS",
+      logo: javascript,
+      name: "JavaScript",
     },
     {
       id: 4,
-      logo: nodejs,
-      name: "NodeJS",
+      logo: reactjs,
+      name: "React Js",
     },
     {
       id: 5,
-      logo: python,
-      name: "Python",
+      logo: figma,
+      name: "Figma",
     },
     {
       id: 6,
-      logo: java,
-      name: "Java",
+      logo: github,
+      name: "GitHub",
     },
   ];
   return (

@@ -18,7 +18,7 @@ function Contact() {
       message: data.message,
     };
     try {
-      await axios.post("https://getform.io/f/bejrewxa", userInfo);
+      await axios.post("https://getform.io/f/azywgmdb", userInfo);
       toast.success("Your message has been sent");
     } catch (error) {
       console.log(error);
@@ -36,7 +36,7 @@ function Contact() {
         <div className=" flex flex-col items-center justify-center mt-5">
           <form
             onSubmit={handleSubmit(onSubmit)}
-            action="https://getform.io/f/bejrewxa"
+            action="https://getform.io/f/azywgmdb"
             method="POST"
             className="bg-slate-200 w-96 px-8 py-6 rounded-xl"
           >

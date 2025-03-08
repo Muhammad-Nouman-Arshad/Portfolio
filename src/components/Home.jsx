@@ -5,7 +5,7 @@ import pic from "../../public/meeee.jpg";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { IoLogoYoutube } from "react-icons/io";
-import { FaTelegram } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa6";
 
 import { FaHtml5 } from "react-icons/fa6";
 import { FaCss3 } from "react-icons/fa6";
@@ -53,24 +53,24 @@ function Home() {
               <div className="  space-y-2">
                 <h1 className="font-bold text-center ">Available on</h1>
                 <ul className="flex gap-3">
-                  <li>
-                    <a href="https://www.facebook.com/" target="_blank">
-                      <FaSquareFacebook className="text-2xl cursor-pointer md:text-3xl hover:scale-110 duration-200" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
-                      <FaLinkedin className="text-2xl cursor-pointer md:text-3xl hover:scale-110 duration-200" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.youtube.com/" target="_blank">
+                <li>
+                    <a href="https://youtube.com/@nomiii013?si=NHDMcQy2MKIMT0xb" target="_blank">
                       <IoLogoYoutube className="text-2xl cursor-pointer md:text-3xl hover:scale-110 duration-200" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://t.me/" target="_blank">
-                      <FaTelegram className="text-2xl cursor-pointer md:text-3xl hover:scale-110 duration-200" />
+                    <a href="https://www.facebook.com/profile.php?id=61550866733973" target="_blank">
+                      <FaSquareFacebook className="text-2xl cursor-pointer md:text-3xl hover:scale-110 duration-200" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.instagram.com/muhammad_nouman_arshad_013/" target="_blank">
+                      <FaInstagram className="text-2xl cursor-pointer md:text-3xl hover:scale-110 duration-200" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/in/muhammad-nouman-arshad-b51373337?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
+                      <FaLinkedin className="text-2xl cursor-pointer md:text-3xl hover:scale-110 duration-200" />
                     </a>
                   </li>
                 </ul>
